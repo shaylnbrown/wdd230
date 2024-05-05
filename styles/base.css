@@ -1,0 +1,87 @@
+main {
+    width: 1000px;    
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    align-self: center;
+    padding: 0px;
+}
+
+#classTitle {
+    text-align: center;
+    grid-column: 2/3;
+}
+
+header {
+    background-color: rgb(0, 110, 182);
+    display: inline-flex;   
+    align-items: center;  
+    justify-content: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(253, 253, 253);
+}
+
+#pic {
+    margin-right: 60px;
+    max-height: 200px;
+}
+
+nav {
+    background-color: rgb(7, 7, 7);
+    display: flex;
+    justify-content: space-around;    
+    height: 40px;
+    font-size: 16pt;  
+}
+nav a {
+    color: rgb(253, 253, 253);
+    align-self: center;    
+}
+
+nav a:visited {
+    color: gray;      
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+    
+}
+
+footer {
+    background-color: rgb(0, 110, 182);
+    color: rgb(253, 253, 253);
+    text-align: center;
+}
+
+html {  
+    
+    
+    
+}
+
+.card {    
+    padding-top: 0px;
+    border-style: solid;
+    border-color: rgb(7, 7, 7);    
+    margin: 10px;      
+    height: 300px;
+    grid-column: 2/3;
+}
+
+h3 {
+    background-color: rgb(0, 110, 182);
+    color: rgb(253, 253, 253);
+    text-align: center;
+    grid-row: 1/2;
+    height: 50px;
+    margin: 0px;
+    display: inline-flex;
+    align-items: center;  
+    justify-content: center;
+    width: 100%;
+}
