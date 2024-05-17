@@ -1,14 +1,8 @@
-main {
-    width: 1000px;    
-    display: grid;
-    grid-template-columns: 10% 80% 10%;
-    align-self: center;
-    padding: 0px;
-}
+
 
 #classTitle {
-    text-align: center;
-    grid-column: 2/3;
+    text-align: center; 
+    grid-column: 1/3;   
 }
 
 header {
@@ -22,6 +16,15 @@ header {
     color: rgb(253, 253, 253);
 }
 
+main {
+    width: 100%;  
+    max-width: 1000px;  
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    align-self: center;
+    padding: 0px;
+}
+
 #pic {
     margin-right: 60px;
     max-height: 200px;
@@ -30,9 +33,9 @@ header {
 nav {
     background-color: rgb(7, 7, 7);
     display: flex;
-    justify-content: space-around;    
-    height: 40px;
-    font-size: 16pt;  
+    flex-direction: column;    
+    font-size: 16pt; 
+    padding: 10px; 
 }
 nav a {
     color: rgb(253, 253, 253);
@@ -69,8 +72,12 @@ html {
     border-style: solid;
     border-color: rgb(7, 7, 7);    
     margin: 10px;      
-    height: 300px;
-    grid-column: 2/3;
+    height: 300px; 
+          
+}
+
+#learning, #information {
+    grid-column: 1/3;
 }
 
 h3 {
