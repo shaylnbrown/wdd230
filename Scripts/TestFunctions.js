@@ -1,1 +1,0 @@
-window.alert(globalParts[82].description);
