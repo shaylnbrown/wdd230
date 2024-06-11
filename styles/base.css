@@ -109,7 +109,7 @@ h3 {
 
 #menu.open::before {
     content: "❌";
-    font-size: 36px;
+    font-size: 34px;
 }
 
 #menu {
