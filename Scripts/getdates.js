@@ -1,3 +1,5 @@
+window.alert("Test");
+
 const today=new Date();
 let thisYear=today.getFullYear();
 let copyright="©" + thisYear + "\nShay Brown" + "\nMissouri, United States";
