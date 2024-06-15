@@ -133,12 +133,8 @@ h3 {
 }
 
 .hero {
-    width: 100%;
+    width: auto;
     grid-column: 1/3;
+    border-style: solid;
     
-    
-}
-
-picture {
-    width: 100%;
 }
