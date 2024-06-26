@@ -1,0 +1,39 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+header, footer {
+    text-align: center;
+    background-color: darkturquoise;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    height: 100px;
+    width: auto;
+    margin-right: 20px;
+}
+
+main img {
+    width: 400px;
+    height: auto;
+    margin-top: 100px;
+    animation: fade 10s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
