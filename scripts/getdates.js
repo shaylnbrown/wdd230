@@ -11,3 +11,9 @@ hamButton.addEventListener('click', () => {
     navigation.classList.toggle('open');
     hamButton.classList.toggle('open');
   });
+
+let visitCount = Number(window.localStorage.getItem("visitCount")) || 0;
+visitCount++;
+if (visitCount == 1) document.getElementById("visitCount").textContent = "Visit Count: First Time!";
+else document.getElementById("visitCount").textContent = "Visit Count: " + visitCount;
+localStorage.setItem("visitCount", visitCount);
