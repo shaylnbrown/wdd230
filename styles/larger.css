@@ -1,15 +1,22 @@
+
 @media screen and (min-width: 650px) {
-    #activities {
-        grid-column: 1/3;
+    #learning {
+        grid-column: 1/2;
     }
 
     #information {
-        grid-column: 3/4;
-    }
+        grid-column: 2/3;
+    } 
+    
+    
 
-    nav {
+    #navigation {  
+        display: flex;       
         flex-direction: row;
-                
+        justify-content: space-around;           
     }
 
+    #menu {
+        display: none;
+    }
 }

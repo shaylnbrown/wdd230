@@ -1,0 +1,159 @@
+html {  
+    font-family: 'Manrope', sans-serif;      
+}
+
+.dark {
+    background-color: lightgrey;
+}
+
+.darker {
+    background-color: gray;
+}
+
+.darkest {
+    background-color: black;
+}
+
+body {    
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+header {
+    background-color: rgb(30, 68, 151);
+    width: 100%;
+    margin: 0px;
+    align-items: center;
+}
+
+.blueWhite {
+    color: white;
+    margin: 0px;
+}
+
+.link {
+    display: flex;      
+    margin: 0px;
+    justify-content: center;    
+}
+
+.link img {
+    width: 50px;
+    height: 50px;
+    margin-right: 6px;
+    align-self: center;
+}
+
+nav.open {
+    display: flex;    
+    flex-direction: column;
+    text-align: center;
+}
+
+#darkMode.darkMode {
+        
+}
+
+#darkMode {
+    position: absolute;
+    top: 50px;
+    right: 6px;
+    padding: 1px;
+}
+
+.linkText {
+    
+}
+
+nav {
+    background-color: lightskyblue;
+    display: none;
+    
+    margin: 0px;    
+}
+
+#title {
+    height: 80px;
+    width: auto;
+    margin: 10px;
+}
+
+footer {
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+.hero {
+    grid-column: 1/3;
+    width: 100%;
+    
+}
+
+#pond {
+    width: 100%;
+    height: auto;
+    align-self: center;
+}
+
+#menu::before {
+    content: "☰";
+    font-size: 42px;    
+}
+
+#menu.open::before {
+    content: "❌";
+    font-size: 34px;
+}
+
+#menu.open {
+    font-size: 20px;
+    top: 6px;
+    right: 0px;
+}
+
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+ 	position: absolute;
+    top: 0px;
+    right: 4px;
+}
+
+section {
+    border-style: solid; 
+    border-color: lawngreen;
+    grid-column: 1/3;   
+}
+
+main {
+    max-width: 1500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-style: solid;   
+    align-self: center; 
+}
+
+header {
+    display: inline-flex;   
+    align-items: center;  
+    justify-content: center;
+    margin: 0px;     
+}
+
+#seal {
+    display: none;
+}
+
+#join {
+    grid-column: 1/3;
+    justify-self: center;
+}
+
+
+
