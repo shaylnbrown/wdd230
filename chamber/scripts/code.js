@@ -1,7 +1,6 @@
-const today=new Date();
-let thisYear=today.getFullYear();
-let copyright="©" + thisYear + "\nShay Brown" + "\nWDD 230 - Web Frontend Development I";
-document.getElementById("copyright").innerText=copyright;
+let now=new Date();
+document.getElementById("copyright").innerText = "©" + now.getFullYear() + " " + document.getElementById("copyright").innerText;
+document.getElementById("lastModified").innerText += document.lastModified;
 document.getElementById("lastModified").innerText="Last Modification: " + document.lastModified;
 
 const hamButton = document.getElementById("menu");
