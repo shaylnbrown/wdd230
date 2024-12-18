@@ -1,3 +1,9 @@
+:root {
+    --green: rgb(4, 100, 58);
+    --yellow: rgb(252, 229, 130);
+    --current: rgba(7, 7, 7,.2); 
+}
+
 html {  
     font-family: 'Manrope', sans-serif;      
 }
@@ -127,7 +133,7 @@ footer {
 
 section {
     border-style: solid; 
-    border-color: lawngreen;
+    border-width: 1px;
     grid-column: 1/7;
 }
 
@@ -158,6 +164,44 @@ header {
 .sights {
     width: 100%;
     
+}
+
+.event {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 140px auto;
+    height: 50px;    
+}
+
+.eventDate {
+    background-color: tomato;
+    font-size: 20pt;
+    height: 100%;
+    grid-column: 1/2;
+    margin: 0px;
+    align-content: center;
+    text-align: center;
+}
+
+.eventLink {
+    text-align: center;
+    align-content: center;    
+    height: 100%;
+    background-color: var(--yellow);
+    grid-column: 2/3;
+    font-size: 18pt;
+}
+
+.heading {
+    background-color: var(--green);
+    color: white;
+    font-size: 16pt;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    align-content: center;
 }
 
 
