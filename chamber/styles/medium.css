@@ -34,7 +34,7 @@
         grid-column: 1/3;
     }
 
-    #mainbar {
+    #mainBar {
         grid-column: 3/7;
     }
 }

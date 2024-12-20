@@ -1,0 +1,15 @@
+header h1 {
+    text-align: center;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 10px;
+}
+
+section {
+    background-color: antiquewhite;
+    text-align: center;
+    padding-bottom: 10px;
+}

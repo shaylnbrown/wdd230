@@ -1,0 +1,33 @@
+{   
+    "familyName" : "Brown",
+    "moveIN" : "8/12/24",
+    "memberCount" : 5,
+    "visited" : true,
+    "members" : [
+        {
+            "name" : "Shayln",
+            "gender" : "male",
+            "birthdate" : "8/30/1981"
+        },
+        {
+            "name" : "Amanda",
+            "gender" : "female",
+            "birthdate" : "4/26/1985"
+        },
+        {
+            "name" : "Oliver",
+            "gender" : "male",
+            "birthdate" : "1/12/2013"
+        },
+        {
+            "name" : "Lennox",
+            "gender" : "female",
+            "birthdate" : "10/8/2015"
+        },
+        {
+            "name" : "Mikah",
+            "gender" : "female",
+            "birthdate" : "8/2/2022"
+        }
+    ]
+}
