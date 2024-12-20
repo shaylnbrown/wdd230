@@ -1,0 +1,101 @@
+{
+    "weeks" : [
+        {
+            "week" : "Week 01",
+            "links" : [
+                {
+                    "title" : "CSS Layout Review",
+                    "url" : "week01/holygrail.html"
+                },
+                {
+                    "title" : "Applied JavaScript",
+                    "url" : "https://codepen.io/shaylnbrown/pen/jOgoeav"
+                },
+                {
+                    "title" : "CSS Media Queries",
+                    "url" : "week01/media-query.html"
+                }
+            ]
+            
+        },
+        {
+            "week" : "Week 02",
+            "links" : [
+                {
+                    "title" : "Web Design Principles",
+                    "url" : "lesson02/design.html"
+                },
+                {
+                    "title" : "Responsive 'Hamburger' Menu",
+                    "url" : "https://codepen.io/shaylnbrown/pen/zYQvxeV"
+                },
+                {
+                    "title" : "JavaScript: DOM Manipulation",
+                    "url" : "lesson02/bom.html"
+                }
+            ]
+            
+        },
+        {
+            "week" : "Week 03",
+            "links" : [
+                {
+                    "title" : "WebP",
+                    "url" : "lesson03/images/landscape.webp"
+                },
+                {
+                    "title" : "Lazy Loading",
+                    "url" : "lesson03/lazyload.html"
+                }                
+            ]
+            
+        },
+        {
+            "week" : "Week 04",
+            "links" : [
+                {
+                    "title" : "CSS Pseudo-Classes",
+                    "url" : "https://codepen.io/shaylnbrown/pen/RwmWMXX"
+                },
+                {
+                    "title" : "CSS Combinators",
+                    "url" : "lesson04/images/combinators.png"
+                },
+                {
+                    "title" : "HTML Tables for Data Presentation",
+                    "url" : "lesson04/tablebuild.html"
+                },
+                {
+                    "title" : "HTML Forms",
+                    "url" : "lesson04/index.html"
+                }
+            ]
+            
+        },
+        {
+            "week" : "Week 05",
+            "links" : [
+                {
+                    "title" : "CSS Pseudo-Elements",
+                    "url" : "https://codepen.io/shaylnbrown/pen/qBGOWjR"
+                },
+                {
+                    "title" : "JSON",
+                    "url" : "lesson05/new-ward-members.json"
+                },
+                {
+                    "title" : "The Fetch API",
+                    "url" : "lesson05/prophets.html"
+                },
+                {
+                    "title" : "Weather API",
+                    "url" : "lesson05/weather.html"
+                }
+            ]
+            
+        }
+
+
+    ]
+
+}
