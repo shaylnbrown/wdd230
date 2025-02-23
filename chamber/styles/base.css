@@ -1,0 +1,217 @@
+:root {
+    --green: rgb(4, 100, 58);
+    --yellow: rgb(252, 229, 130);
+    --current: rgba(7, 7, 7,.2); 
+}
+
+html {  
+    font-family: 'Manrope', sans-serif;      
+}
+
+.dark {
+    background-color: lightgrey;
+}
+
+.darker {
+    background-color: gray;
+}
+
+.darkest {
+    background-color: black;
+}
+
+body {    
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+header {
+    background-color: rgb(30, 68, 151);
+    width: 100%;
+    margin: 0px;
+    align-items: center;
+}
+
+.blueWhite {
+    color: white;
+    margin: 0px;
+}
+
+.link {
+    display: flex;      
+    margin: 0px;
+    justify-content: center;    
+}
+
+.link img {
+    width: 50px;
+    height: 50px;
+    margin-right: 6px;
+    align-self: center;
+}
+
+nav.open {
+    display: flex;    
+    flex-direction: column;
+    text-align: center;
+}
+
+#darkMode.darkMode {
+        
+}
+
+#darkMode {
+    position: absolute;
+    top: 50px;
+    right: 6px;
+    padding: 1px;
+}
+
+.linkText {
+    
+}
+
+nav {
+    background-color: lightskyblue;
+    display: none;
+    
+    margin: 0px;    
+}
+
+#title {
+    height: 80px;
+    width: auto;
+    margin: 10px;
+}
+
+footer {
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+.hero {
+    grid-column: 1/7;
+    width: 100%;
+    
+}
+
+#pond {
+    width: 100%;
+    height: auto;
+    align-self: center;
+}
+
+#menu::before {
+    content: "☰";
+    font-size: 42px;    
+}
+
+#menu.open::before {
+    content: "❌";
+    font-size: 34px;
+}
+
+#menu.open {
+    font-size: 20px;
+    top: 6px;
+    right: 0px;
+}
+
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+ 	position: absolute;
+    top: 0px;
+    right: 4px;
+}
+
+section {
+    border-style: solid; 
+    border-width: 1px;
+    grid-column: 1/7;
+}
+
+main {
+    max-width: 1500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    border-style: solid;   
+    align-self: center; 
+}
+
+header {
+    display: inline-flex;   
+    align-items: center;  
+    justify-content: center;
+    margin: 0px;     
+}
+
+#seal {
+    display: none;
+}
+
+#join {
+    grid-column: 1/7;
+    justify-self: center;
+}
+
+
+.sights {
+    max-width: 96%;    
+    width: auto;    
+    margin-top: 10px;
+}
+
+.event {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 140px auto;
+    height: 50px;    
+}
+
+.eventDate {
+    background-color: tomato;
+    font-size: 20pt;
+    height: 100%;
+    grid-column: 1/2;
+    margin: 0px;
+    align-content: center;
+    text-align: center;
+}
+
+.eventLink {
+    text-align: center;
+    align-content: center;    
+    height: 100%;
+    background-color: var(--yellow);
+    grid-column: 2/3;
+    font-size: 18pt;
+}
+
+.heading {
+    background-color: var(--green);
+    color: white;
+    font-size: 16pt;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+}
+
+#mainBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+
+
