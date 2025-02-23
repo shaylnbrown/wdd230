@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shay Brown - WDD 230 - Discover Florissant Chamber of Commerce</title>
+    <meta name="author" content="Shay Brown" />
+    <meta
+        name="description"
+        content="WDD 230 - Web Frontend Development\n Shay Brown\n Chamber Site" />    
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- Social Media tags -->
+    <meta property="og:title" content="Shay Brown - WDD 230 - Chamber of Commerce Site">
+    <meta property="og:type" content="website">    
+    <meta property="og:image" content="https://www.florissantmo.com/egov/images/1670427077_47379.jpg">
+    <meta property="og:url" content="https://shaylnbrown.github.io/wdd230/chamber">
+    <meta name="twitter:card" content="florissant_missouri_image">
+
+
+    <!-- CSS --> 
+    <link rel="stylesheet" href="styles/normalize.css">   
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+<body>
+    <header id="header">
+        <button id="menu"></button>
+        <button id="darkMode">Dark<br>Mode</button>
+        <img id="seal" src="images/city-seal.webp">
+        <img id="title" src="images/site-title.webp">
+    </header>
+    <nav id="navigation">
+        <a class="link" href="index.html">
+            <img class="linkIcon" src="images/home.webp">
+            <h2 class="linkText">Home</h2>
+        </a>
+        <a class="link" href="discover.html">
+            <img class="linkIcon" src="images/discover.webp">
+            <h2 class="linkText">Discover</h2>
+        </a>
+        <a class="link" href="#">
+            <img class="linkIcon" src="images/directory.webp">
+            <h2 class="linkText">Directory</h2>
+        </a>        
+    </nav>
+    <main id="main">
+        <section id="sidebar">
+            <div class="heading">Current Events</div>
+            <div class="event">
+                <h2 class="eventDate">Dec 19th</h2>
+                <a class="eventLink" href="">Breakfast with Santa</a>
+            </div>
+            <div class="event">
+                <h2 class="eventDate">Dec 21st</h2>
+                <a class="eventLink" href="">Nursing Home Caroling</a>
+            </div>
+            <div class="event">
+                <h2 class="eventDate">Dec 23th</h2>
+                <a class="eventLink" href="">Toy Train Show</a>
+            </div>
+            <div class="event">
+                <h2 class="eventDate">Dec 28th</h2>
+                <a class="eventLink" href="">Ice Skating</a>
+            </div>
+        </section>
+        <section id="mainBar">
+            <div class="heading">Images</div>
+            <img class="sights" src="images/crossKeys.webp" alt="Cross Keys Middle School" loading="lazy">
+            <img class="sights" src="images/eaganCivicCenter.webp" alt="Cross Keys Middle School" loading="lazy">
+            <img class="sights" src="images/jfkCivicCenter.webp" alt="Cross Keys Middle School" loading="lazy">
+            <img class="sights" src="images/mcluerNorth.webp" alt="Cross Keys Middle School" loading="lazy">
+            <img class="sights" src="images/old-st-ferdinand-church.webp" alt="Cross Keys Middle School" loading="lazy">
+            <img class="sights" src="images/siouxPassage.webp" alt="Cross Keys Middle School" loading="lazy">
+        </section>
+    </main>
+    <footer id="footer">
+        <h1 id="copyright">Shay Brown<br>Florissant, MO Chamber of Commerce</h1>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/code.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+</html>

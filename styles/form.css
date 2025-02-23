@@ -1,0 +1,14 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+main input {
+    margin: 20px;
+}
+
+#slider {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
