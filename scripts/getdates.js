@@ -15,5 +15,5 @@ hamButton.addEventListener('click', () => {
 let visitCount = Number(window.localStorage.getItem("visitCount")) || 0;
 visitCount++;
 if (visitCount == 1) document.getElementById("visitCount").textContent = "Visit Count: First Time!";
-else document.getElementById("visitCount").textContent = "Visit Count: " + visitCount;
+else document.getElementById("visitCount").textContent = "Page Visits: " + visitCount;
 localStorage.setItem("visitCount", visitCount);
