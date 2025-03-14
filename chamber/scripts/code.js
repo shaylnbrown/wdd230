@@ -17,3 +17,5 @@ hamButton.addEventListener('click', () => {
     document.getElementById("header").classList.toggle('darkest');
     document.getElementById("main").classList.toggle('dark');
   });
+
+  let visitCount = Date(window.localStorage.getItem("lastVisit")) || Date.now();

@@ -1,0 +1,44 @@
+:root {	
+    --zebra: hsl(0, 0%, 93%, 1);
+    --border: hsla(0,0%,20%,.8);
+}
+
+#title, #space {
+    background-color: aquamarine;
+
+}
+
+#space {
+    border-top: none;
+}
+
+#title {
+    border-bottom: none;
+}
+
+th {
+    background-color: chartreuse;
+    padding: 8px;
+}
+
+td {
+    padding: 4px;
+}
+
+td, th {
+    text-align: center;
+    border: thin solid var(--border);  
+    font-size: 18pt;      
+}
+
+tbody tr:nth-child(even) {
+	background-color: var(--zebra);
+}
+
+table {    
+    border-collapse: collapse;
+}
+
+caption {
+    caption-side: bottom;
+}
