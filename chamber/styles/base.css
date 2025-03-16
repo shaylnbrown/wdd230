@@ -141,7 +141,7 @@ main {
     max-width: 1500px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    border-style: solid;   
+       
     align-self: center; 
 }
 
@@ -213,5 +213,23 @@ header {
     padding-bottom: 10px;
 }
 
+#formJoin {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-column: 3/5;
+}
 
+#formJoin >* {
+    margin-top: 20px;
+    
+}
+
+#joinButton {
+    margin-bottom: 20px;
+}
+
+#thanks {
+    grid-column: 1/7;
+}
 

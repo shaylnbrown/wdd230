@@ -19,3 +19,10 @@ hamButton.addEventListener('click', () => {
   });
 
   let visitCount = Date(window.localStorage.getItem("lastVisit")) || Date.now();
+
+  const joinButton = document.getElementById("joinButton");
+  joinButton.addEventListener('click', () => {  
+    document.location.href="thankyou.html";
+  });  
+  const formLoaded=document.getElementById("formLoaded");
+  formLoaded.textContent=Date.now();
