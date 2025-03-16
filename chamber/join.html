@@ -3,9 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Shay Brown - WDD 230 - Discover Florissant Chamber of Commerce</title>
+    <meta name="author" content="Shay Brown" />
+    <meta
+        name="description"
+        content="WDD 230 - Web Frontend Development\n Shay Brown\n Chamber Site" />    
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- Social Media tags -->
+    <meta property="og:title" content="Shay Brown - WDD 230 - Chamber of Commerce Site">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.florissantmo.com/egov/images/1670427077_47379.jpg">
+    <meta property="og:url" content="https://shaylnbrown.github.io/wdd230/chamber">
+    <meta name="twitter:card" content="florissant_missouri_image">
+
+
+    <!-- CSS --> 
+    <link rel="stylesheet" href="styles/normalize.css">   
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
 </head>
 <body>
-    
+    <header id="header">
+        <button id="menu"></button>
+        <button id="darkMode">Dark<br>Mode</button>
+        <img id="seal" src="images/city-seal.webp" alt="City Seal">
+        <img id="title" src="images/site-title.webp" alt="Site Title">
+    </header>
+    <nav id="navigation">
+        <a class="link" href="index.html">
+            <img class="linkIcon" src="images/home.webp" alt="Home">
+            <h2 class="linkText">Home</h2>
+        </a>
+        <a class="link" href="discover.html">
+            <img class="linkIcon" src="images/discover.webp" alt="Discover">
+            <h2 class="linkText">Discover</h2>
+        </a>
+        <a class="link" href="#">
+            <img class="linkIcon" src="images/directory.webp" alt="Directory">
+            <h2 class="linkText">Directory</h2>
+        </a>
+        
+    </nav>
+    <main id="main">
+        <form id="form1" method="get" action="record.html">
+            <label>First Name <input id="firstName" name="firstName" type="text" required></label>    
+            <label>Last Name <input id="lastName" name="lastName" type="text" required></label> 
+            <label>Title/Position <input id="position" name="position" type="text" pattern="[A-Za-z]{7,}" required></label>
+            <label>Email <input id="email" name="email" type="email" placeholder="for@example.com" required></label>   
+            <label>Mobile <input id="mobile" name="mobile" type="tel" required></label>
+            <label>Business Name <input id="business" name="business" type="text" required></label>    
+            <label>Business Description <input id="businessDescription" name="business" type="text" required></label>
+            <label>NP Membership <input id="npMembership" name="membership" type="radio" checked></label>
+            <label>Bronze Membership <input id="bronzeMembership" name="membership" type="radio"></label>
+            <label>Silver Membership <input id="silverMembership" name="membership" type="radio" checked></label>
+            <label>Gold Membership <input id="goldMembership" name="membership" type="radio"></label>
+            
+            
+            <input type="submit" value="Do The Thing">
+        </form>
+    </main>
+    <footer id="footer">
+        <h1 id="copyright">Shay Brown<br>Florissant, MO Chamber of Commerce</h1>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/code.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
