@@ -24,5 +24,6 @@ hamButton.addEventListener('click', () => {
   joinButton.addEventListener('click', () => {  
     document.location.href="thankyou.html";
   });  
+
   const formLoaded=document.getElementById("formLoaded");
   formLoaded.textContent=Date.now();
