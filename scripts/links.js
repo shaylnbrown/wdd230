@@ -1,7 +1,7 @@
 const weekList=document.getElementById("weeks");
 
 async function getLinks()
-{
+{    
     const response = await fetch("../data/links.json");
     const data = await response.json();
     
