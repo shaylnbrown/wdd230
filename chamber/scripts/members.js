@@ -1,4 +1,4 @@
-const mainElement=document.getElementById("main");
+const mainElement=document.getElementById("members");
 async function getMembers()
 {    
     const response = await fetch("../chamber/data/members.json");
@@ -9,6 +9,7 @@ async function getMembers()
 const displaySections = (members) => {
     members.forEach((member) => {
         let memberSection = document.createElement("section");
+        memberSection.classList.add("memberSection");
 
         let memberAttribute = document.createElement("img");
         memberAttribute.src = member.image;

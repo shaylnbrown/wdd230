@@ -139,6 +139,7 @@ section {
 
 main {
     max-width: 1500px;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
        
@@ -235,5 +236,23 @@ header {
 
 .memberThumb {
     max-width: 200px;
+}
+
+.memberSection {
+    
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#members {
+    grid-column: 1/7;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 10px;
+    background-color: aqua;
 }
 
