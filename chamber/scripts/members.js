@@ -1,18 +1,49 @@
-const weekList=document.getElementById("weeks");
-
+const mainElement=document.getElementById("main");
 async function getMembers()
 {    
-    const response = await fetch("../data/members.json");
-    const data = await response.json();
-    
-    displayMembers(data.members);
+    const response = await fetch("../chamber/data/members.json");
+    const data = await response.json();    
+    displaySections(data.members);
 }
 
-const displayMembers = (members) => {
+const displaySections = (members) => {
     members.forEach((member) => {
-        window.alert(member.name);        
-        
+        let memberSection = document.createElement("section");
+
+        let memberAttribute = document.createElement("img");
+        memberAttribute.src = member.image;
+        memberAttribute.classList.add("memberThumb");
+        memberSection.appendChild(memberAttribute);
+
+        memberAttribute = document.createElement("h3");
+        memberAttribute.textContent = member.name;
+        memberSection.appendChild(memberAttribute);
+
+        memberAttribute = document.createElement("h3");
+        memberAttribute.textContent = member.membership + " Membership";
+        memberSection.appendChild(memberAttribute);
+
+        memberAttribute = document.createElement("h3");
+        memberAttribute.textContent = "Joined on " + member.joined;
+        memberSection.appendChild(memberAttribute);
+
+        memberAttribute = document.createElement("h3");
+        memberAttribute.textContent = member.address;
+        memberSection.appendChild(memberAttribute);
+
+        memberAttribute = document.createElement("h3");
+        memberAttribute.textContent = member.phone;
+        memberSection.appendChild(memberAttribute);
+
+        memberAttribute = document.createElement("a");
+        memberAttribute.textContent = member.URL;
+        memberAttribute.url = member.URL;
+        memberSection.appendChild(memberAttribute);
+
+
+        mainElement.appendChild(memberSection);
     });
+
 }
 
 getMembers();

@@ -233,3 +233,7 @@ header {
     grid-column: 1/7;
 }
 
+.memberThumb {
+    max-width: 200px;
+}
+
