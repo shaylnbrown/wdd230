@@ -1,0 +1,67 @@
+{
+    "members" : [
+        {
+            "name" : "Old Town Donuts",
+            "address" : "508 New Florissant Rd.",
+            "phone" : "(314) 831-0907",
+            "URL" : "https://oldtowndonuts.com",            
+            "image" : "https://oldtowndonuts.com/wp-content/uploads/2016/06/OTDlogo_web-2.png",
+            "membership" : "Gold", 
+            "joined" : "6/15/2008"          
+        },
+        {
+            "name" : "Narrow Gauge Brewing Company",
+            "address" : "1545 N Highway 67 St",
+            "phone" : "(314) 501-6108",
+            "URL" : "https://www.narrowgaugestl.shop/",
+            "image" : "https://fb05ceb1fbe0f8812a20.cdn6.editmysite.com/uploads/b/fb05ceb1fbe0f8812a20951be52b8d3af017ba5db915167ce4b25aff634f182b/Narrow%20Gauge%20Logo_NG%20Blue_1598888411.png?width=2400&optimize=medium",
+            "membership" : "Silver", 
+            "joined" : "11/4/2018"          
+        },
+        {
+            "name" : "Man Meats",
+            "address" : "300 Saint Ferdinand St",
+            "phone" : "(314) 342-7000",
+            "URL" : "https://mannmeats.com/",            
+            "image" : "https://img1.wsimg.com/isteam/ip/c363b263-7cc4-4580-aa58-b78875f7fd88/571540e8-bdba-4eeb-8c2f-e8b89bd00cb1.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1240,h:620,cg:true",
+            "membership" : "Gold", 
+            "joined" : "2/27/2014"          
+        },
+        {
+            "name" : "Hendel’s",
+            "address" : "599 Rue St. Denis Street",
+            "phone" : "(314) 837-2304",
+            "URL" : "https://hendelsrestaurant.com/",            
+            "image" : "https://hendelsrestaurant.com/wp-content/uploads/2020/02/hendelslogo-u13188.png",
+            "membership" : "Silver", 
+            "joined" : "1/25/2020"          
+        },
+        {
+            "name" : "Mattingly's",
+            "address" : "8108 North Lindbergh Boulevard",
+            "phone" : "(314) 831-9181",
+            "URL" : "https://florissant.mattinglysportsbar.com/",            
+            "image" : "https://static.spotapps.co/web/mattinglysportsbar--com/custom/logo.png",
+            "membership" : "Gold", 
+            "joined" : "5/6/2011"          
+        },
+        {
+            "name" : "Irma Jean's",
+            "address" : "2109 Charbonier Rd.",
+            "phone" : "(314) 395-6777",
+            "URL" : "https://www.irmajeans.com/",            
+            "image" : "https://images.squarespace-cdn.com/content/v1/598363a2bebafbe250372bd4/1501804974933-I946SP9BDI58GCEXM595/Irma+Jeans+LOGO.jpg?format=1500w",
+            "membership" : "Silver", 
+            "joined" : "5/20/2015"          
+        },
+        {
+            "name" : "Fritzs Frozen Custard",
+            "address" : "1055 St Catherine St",
+            "phone" : "(314) 839-4100",
+            "URL" : "https://fritzsfrozencustard.com/",            
+            "image" : "https://img1.wsimg.com/isteam/ip/d3a1ab6a-54d2-4f55-a2a8-ea3db9821133/Fritzs%20Logo%20High%20Quality_clipped_rev_1.png/:/rs=w:295,h:200,cg:true,m/cr=w:295,h:200/qt=q:95",
+            "membership" : "Gold", 
+            "joined" : "3/10/2010"          
+        }
+    ]
+}

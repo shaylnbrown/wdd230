@@ -27,3 +27,5 @@ hamButton.addEventListener('click', () => {
 
   const formLoaded=document.getElementById("formLoaded");
   formLoaded.textContent=Date.now();
+
+  
