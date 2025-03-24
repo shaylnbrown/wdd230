@@ -238,21 +238,33 @@ header {
     max-width: 200px;
 }
 
-.memberSection {
-    
+.member {
+    padding: 10px;
     width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#members {
+#memberSection {
+    
     grid-column: 1/7;
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    grid-gap: 10px;
-    background-color: aqua;
+    grid-gap: 10px;   
+    margin-top:  10px;
+    margin-bottom: 10px;
+}
+
+.layoutButton {
+    height: 50px;
+    width: 60px;
+    margin-top: 10px;
+}
+
+#gridButton {
+    grid-column: 3/4;
 }
 
