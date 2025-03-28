@@ -2,7 +2,7 @@ const weekList=document.getElementById("weeks");
 
 async function getLinks()
 {    
-    const response = await fetch("/wdd230/data/links.json");
+    const response = await fetch("https://shaylnbrown.github.io/wdd230/data/links.json");
     const data = await response.json();
     
     displayLinks(data.weeks);
