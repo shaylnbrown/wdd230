@@ -88,16 +88,25 @@
                 }
             ]            
         },
-	{
+	    {
             "week" : "Week 08",
             "links" : [
                 {
                     "title" : "HTML Tables for Data Presentation",
                     "url" : "lesson08/tablebuild.html"
                 },
-		{
+		        {
                     "title" : "HTML Forms",
                     "url" : "lesson08/index.html"
+                }
+            ]            
+        },
+        {
+            "week" : "Week 10",
+            "links" : [
+                {
+                    "title" : "Consuming a Weather API",
+                    "url" : "lesson10/weather.html"
                 }
             ]            
         }

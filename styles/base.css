@@ -183,4 +183,8 @@ h2 {
     align-items: center;
 }
 
+#weatherConditions {
+    display: flex;
+}
+
 /*Comment*/
