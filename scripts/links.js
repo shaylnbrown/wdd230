@@ -4,7 +4,7 @@ async function getLinks()
 {    
     const response = await fetch("https://shaylnbrown.github.io/wdd230/data/links.json");
     const data = await response.json();
-    window.alert(data.weeks[0].week);
+    //window.alert(data.weeks[0].week);
     displayLinks(data.weeks);
 }
 
